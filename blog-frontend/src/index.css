@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.blogs-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  width: 80vw;
+  margin: 0 auto;
+}
+.blogs-wrap > * {
+  flex: 1 1 50%;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+img {
+  width: 50%;
+}
+.hero {
+  height: 50vh;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+}
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.hero-content > * {
+  width: 50%;
+}
+.hero-content a {
+  transition: all .2s ease-in;
+  background-color: white;
+  color: black;
+  padding: .5em 2em;
+  border-radius: 8px;
+}
+.hero-content a:hover {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  height: 25vh;
+  background-color: black;
+}
